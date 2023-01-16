@@ -1,0 +1,50 @@
+.exchange-container {
+  @apply w-full mx-auto;
+  @screen md {
+    width: 512px;
+  }
+  &--liquidity-list {
+    @screen md {
+      width: 100%;
+    }
+    @screen lg {
+      width: 830px;
+    }
+  }
+}
+
+body {
+  // @apply bg-primary;
+}
+
+.ant-tooltip {
+  .ant-tooltip-inner {
+    @apply p-4;
+  }
+}
+
+.btn-primary {
+  background: #965dff;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.btn-outline-primary {
+  @apply text-white bg-transparent;
+  @apply border border-solid  p-3 font-bold text-center;
+}
+
+.btn-outline {
+  @apply text-white bg-transparent;
+}
+
+// .ant-dropdown-menu {
+//   @apply bg-primary;
+//   &-item {
+//     @apply text-white;
+//     &:hover {
+//       @apply bg-primary;
+//     }
+//   }
+// }
